@@ -1,0 +1,35 @@
+<html><body>
+  <div id="options">
+  <div>
+  <label for="font">Choose a font:</label>
+    <select id="font">
+      <option value="sans-serif">sans-serif</option>
+      <option value="serif">serif</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="color">Choose a color:</label>
+    <input id="color" type="color">
+  </div>
+  <div>
+    <button id="go" onclick="makeSVG()">
+    make svg
+    </button>
+  </div>
+</div>
+
+
+
+<div id="mySVG">
+
+</div>
+
+<button id="export" onclick="exportToPNG()">
+Export to PNG
+</button>
+
+<canvas id="canvas">
+  
+</canvas>
+</body></html>
